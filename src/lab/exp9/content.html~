@@ -1,0 +1,385 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Surface Tension.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+	<p align="justify">
+	<br>	
+	<p>
+	<strong>
+The water strider is an insect with a very special ability. It can use its long legs to “grip” the water and then walk on it. What special ability allows it to do so? The water strider uses surface tension, the tendency of the liquid surfaces to act as a stretched elastic film. As long as the pressure of the insect on the water surface does not exceed the force of surface tension, the water layer will not break.<br/>
+
+<img align=center src="images/surfacetension.jpeg" height="200" width="500"></img><br>
+<br><br>
+
+Surface tension is caused by the attraction between the liquid’s molecules due to various intermolecular forces. In the bulk of the liquid, each molecule is pulled equally in every direction by neighboring liquid molecules, resulting in a net zero force. The molecules at the surface of the liquid are pulled inwards by the molecules deeper inside the liquid and are not attracted as intensely by the molecules of the neighboring medium (be it vacuum, air or another liquid). Therefore, all of the molecules at the surface are subject to an inward force of molecular attraction which is balanced only by the liquid’s resistance to compression, meaning there is no net inward force. However, there is a driving force to diminish the surface area. Thus the liquid squeezes itself together until it has the locally lowest surface area possible.
+	<br><br>
+	</strong>
+		
+	</div>
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<strong>
+	<p>Determination of surface tension of a liquid by the capillary tube method.</p>
+	 <br><br>
+	</strong>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-3-content" class="content">
+<strong>
+	<P><A href="http://hyperphysics.phy-astr.gsu.edu/Hbase/surten2.html#c4">Capillary action</A> occurs when the <A href="http://hyperphysics.phy-astr.gsu.edu/Hbase/surten.html#c4">adhesion</A> to the walls is stronger than the <A href="http://hyperphysics.phy-astr.gsu.edu/Hbase/surten.html#c4">cohesive</A> forces between the liquid molecules. The height to which capillary action will take water in a uniform circular tube is limited by <A href="http://hyperphysics.phy-astr.gsu.edu/Hbase/surten.html#c1">surface tension</A>. When the lower end of a vertical glass tube is placed in a liquid such as water, a concave <A href="http://en.wikipedia.org/wiki/Meniscus">meniscus</A> forms. <A href="http://en.wikipedia.org/wiki/Surface_tension">Surface tension</A> pulls the liquid column up until there is a sufficient mass of liquid in the capillary whose <A href="http://en.wikipedia.org/wiki/Gravitational_force">gravitational forces</A> balance the intermolecular forces. The contact length (around the edge) between the top of the liquid column and the tube is proportional to the diameter of the tube, while the weight of the liquid column is proportional to the square of the tube’s diameter, so a narrow tube will draw a liquid column higher than a wide tube.</P>
+<P>Acting around the circumference, the upward force is</P>
+<H3 style="text-align: center;"><STRONG>F<SUB>upwards</SUB>= T2πr</STRONG></H3>
+<P>where &nbsp; T = surface tension and</P>
+<P>r = radius of capillary tube</P>
+<P>The height h to which capillary action will lift water depends upon the <A href="http://hyperphysics.phy-astr.gsu.edu/Hbase/mass.html#wgt">weight</A> of water which the surface tension will lift; that is,</P>
+<P><!--<P><A href="./Theory   Virtual Physical Sciences Laboratory_files/water-strider1.jpg"><IMG class="aligncenter size-full wp-image-66" src="./Theory   Virtual Physical Sciences Laboratory_files/water-strider1.jpg" alt="" width="83" height="61"></A>-->where ρ&nbsp; = density of liquid. Hence, if we know the radius of the tube, the density of the liquid and the height of the liquid in the tube we can calculate the force of surface tension as</P>
+<H3 style="text-align: center;">T = hρrg/2</H3>
+<P>The unit of surface tension is N m<SUP>-1</SUP> or J m<SUP>-2</SUP>.</P>
+</strong>
+</div>
+</section>
+
+
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+	<p>
+	<strong>
+	<ol>
+		
+	<li>Select the liquid</li>
+	<li>Click <b>Start</b> to begin the experiment.</li>
+	<li>When the liquid is filled a capillary is selected.</li>
+	<li>Move the cross-hair of the travelling microscope by pressing the <b>UP</b> and <b>DOWN</b> button.</li>
+	<li>When the cross-hair aligns with the meniscus of the liquid click <b>Take Reading</b> button.</li>
+	<li>After all the readings have been taken click on <b>Show Graph</b>.</li>
+	<li>Calculate the surface tension of the liquid from the graph.</li>
+	</ol>
+	</strong>
+	</div>
+			
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-5-content" class="content">
+<p><a onclick="window.open('media/ve_surfacetension.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				   class="qtlink" href="media/ve_surfacetension.html">
+					<strong>Virtual Lab</strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60">
+				</a></p>
+
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+<strong>
+	<p>
+<ol>
+		<li>We have seen that when a capillary glass tube is dipped into water the water level rises inside the tube. But when an wide-bore glass tube is dipped in water no rise is observed. Why?</li> 
+		<li>How does the surface tension of pure water differ from that of salt solution?</li> 
+		<li>Will all liquids rise in the capillary glass tubes ?</li>
+		<li>What would happen if the capillary tube is broken at a height less than ‘h’?  Will the liquid overflow?</li>
+		<li>What is the principle of the mercury barometer ?</li>  
+    </ol>	
+	
+	</p>
+	
+	</strong>
+
+
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<strong>
+	<p><ol>
+		<li> <a target="_blank"  href="http://en.wikipedia.org/wiki/Oil-drop_experiment">http://en.wikipedia.org/wiki/Surface_tension</a></li> 
+		<li><a target="_blank"  href="http://en.wikipedia.org/wiki/Capillary_rise">http://en.wikipedia.org/wiki/Capillary_rise</a></li> 
+		   
+    </ol>
+	
+	</p>
+	
+	
+
+	<br/><br/><br/>
+	</strong>	
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

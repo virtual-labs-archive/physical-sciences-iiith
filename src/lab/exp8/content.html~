@@ -1,0 +1,400 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Young's Modulus.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+	<p align="justify">
+	<br>	
+	<p>
+	<strong>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When  a spring or a rubber band is stretched and released, they come back to their original size & shape.This physical property of a material called ‘elasticity’.
+
+When subjected to external forces, a solid body may deform. Then internal forces come into play and try to restore the body in its original shape. When the deformation is very large, the body may be permanently deformed; for example, if we try to stretch the rubber band to a very large extent, then it breaks after a certain point and it gets permanently deformed. But in case of a spring the  same magnitude of force may not cause a permanent deformation. The breaking force can vary from material to material. Similarly,  the extent to which the shape of a body is restored when the deforming forces are removed, varies from material to material. The property of the material that restores the natural shape or resists the deformation is called the elasticity of a material. As a measure of the stiffness of a material, the knowledge of elasticity of materials used in construction is important in engineering designs.
+	
+	</strong>
+	</p>	
+	</div>
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<strong>
+	<p>To determine the Young’s modulus (Υ) of the beam’s material by the method of flexture.
+	 <br><br>
+	<img  src="images/beam.gif" width="550" height="340" />	 </p>
+	</strong>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-3-content" class="content">
+<strong>
+<p>To study elasticity, two physical quantities are very important: stress and strain.</p>
+<P>When a body with an area of cross section (A) is subjected to an external force, an internal restoring force (F) comes into play. Longitudinal stress (Γ<SUB>n</SUB>) is the internal force normal to any unit cross sectional area. Similarly tangential stress is the internal force tangential to any unit cross sectional area.</P>
+<P>Longitudinal stress</P>
+<H3 style="text-align: center;">(Γ<SUB>n</SUB>) = F<SUB>n</SUB>/A ,</H3>
+<P>F<SUB>n</SUB> = Component of F normal to A</P>
+<P>On the other hand when subjected to a longitudinal stress, the length of a body changes. The ratio of change in longitudinal length to the original length of a body is called the longitudinal strain.</P>
+<P>Consider a rod of length L being pulled by equal and opposite&nbsp; forces. The length of the rod increases from its natural value L to L+ΔL. The fractional change&nbsp; ΔL/L is called a longitudinal strain.</P>
+<H3 style="text-align: center;">Longitudinal strain =&nbsp; ΔL/L</H3>
+<br/><!--<br><br><br><br>-->
+
+		
+<P>An important law in elasticity is the famous Hooke’s law, applicable when the deformation is small. According to Hooke’s law, the stress in a body is proportional to the corresponding strain for small deformation.</P>
+<P style="text-align: center;"><STRONG>longitudinal stress&nbsp; ∝ longitudinal strain</STRONG></P>
+<P>The proportionality constant in the above relation is called Young’s modulus(Y):</P>
+<P style="padding-left: 240px;"><STRONG>Y = longitudinal stress / longitudinal strain</STRONG></P>
+<P style="padding-left: 240px;"><STRONG> = (F/A) / (ΔL/L)</STRONG></P>
+<P style="padding-left: 240px;"><STRONG> = (FL) / (A ΔL)</STRONG></P>
+<P>If a beam of breadth b and depth d is placed horizontally on two knife-edges at a distance L apart, then the depression l of the middle point of the bar by a load of mass M is connected with the Young’s modulus Y of the material by the relation</P>
+<P style="text-align: center;"><STRONG>Y=gL<SUP>3</SUP>M / 4bd<SUP>3</SUP>l</STRONG></P>
+<P>if b,d,L,l are put in meter, M in Kg and g in m/s<SUP>2</SUP> then Y will be in N/m<SUP>2</SUP>.</P>
+	</p>
+
+	<br/>
+	
+	</strong>
+</div>
+</section>
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+<p>
+<strong>
+	<ol>
+
+<li>Select the material of the beam from the drop-down menu.</li>
+<li>Select the length of the road using the slider.</li>
+<li>In the observation window move the cross wire up and down to align it with the tip of the needle and click on take reading</li>
+<li>Now add weight and repeat previous step</li>
+<li>Add up to five weights and and take readings</li>
+<li>Repeat the experiment while removing the weights</li>
+<li>Click on "Show Graph" to display the graph.</li>
+<li>Calculate the Young's modulus of the material from the graph</li>
+</ol>
+	</strong>
+	
+
+	
+	<div class="column quicktime showcase" id ="manual_more1" style="display:none"> <!-- Manual -->
+	<div id="qtview" ><div class="qtcontent" id="MASKED-clicktoplay">
+	</p>
+	</div>
+			
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-5-content" class="content">
+<a onclick="window.open('media/ve_youungmodulus.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				   class="qtlink" href="media/ve_youungmodulus.html">
+					<strong>Virtual Lab</strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60">
+				</a>
+
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+<strong>
+	<p>
+	<ol>
+		<li>Will the value of Υ change if length, breadth or depth of the rod is changed?</li> 
+		<li>Why is it recommended to support the beam with smaller dimension (d) in the vertical direction?</li> 
+		<li>The beam has its own weight. Does the weight of the beam have any effect on the Young’s Modulus?</li>
+		<li>The weight of the hanger depressess the midpoint of the beam by a very small amount. We neglect this depression in our calculation. Why do we  not take into account the depression due to the hanger?</li>
+		<li>Which has the higher Young’s modulus: 1) steel or rubber band ? 2) steel or silk ?</li> 
+    </ol>
+	</p>
+	</strong>
+
+
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<strong>
+	
+<p><ol>
+		<li> <a target="_blank"  href="http://en.wikipedia.org/wiki/Young’s_modulus">http://en.wikipedia.org/wiki/Young’s_modulus</a></li> 
+		<li><a target="_blank" href="http://www.matter.org.uk/schools/Content/YoungModulus/Default.htm">http://www.matter.org.uk/schools/Content/YoungModulus/Default.htm</a></li> 
+		<li><a target="_blank" href="http://www.engineeringtoolbox.com/young-modulus-d_417.html">http://www.engineeringtoolbox.com/young-modulus-d_417.html</a></li>
+		<li><a target="_blank" href="http://www.engineeringtoolbox.com/young-modulus-d_773.html">http://www.engineeringtoolbox.com/young-modulus-d_773.html</a></li>
+    </ol>
+	</p> 
+	<br/><br/><br/>
+	</strong>
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

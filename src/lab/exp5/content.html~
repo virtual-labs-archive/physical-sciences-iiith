@@ -1,0 +1,411 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Kinetics of Heat of Neutralization.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+	<p align="justify">
+	<br>	
+	
+	<strong>
+	Physical and chemical changes are associated with energy changes.  This leads to a change in the energy of the system. It is seen in the form of <a onclick="hideAll(); show('intro_more2');" class="more" href="#">heat transfer</a>. As example, plants process light energy in the form of chemical bonds inside large macromolecules like carbohydrates, proteins, and fat. And this chemical energy reaches other organisms via the food chain. We can utilize the energy through metabolic activity which releases the energy slowly through chemical reactions. How can we measure this energy change? Calorimetry provides one answer to this problem. An ordinary calorimeter is an insulated flask which can prevent heat from flowing into or out of the system. Any heat generated or absorbed is then going to change the temperature of the contents. This is how we measure the heat change.<br>
+	  
+	
+	</strong>
+ 
+	<img src="images/FG05_015.jpg" width= "550" height="300"> </img></p>
+
+
+	
+	<strong>
+<p>
+	The magnitude of measured heat change for a reaction tells us about the strength of associations that are forming or breaking. Thus a simple experiment becomes 	a source of understanding of the interaction between electrons and nuclei in the molecules forming the substance.</p>
+	<br></br>	
+	</strong>
+	
+	</p>
+
+	<strong>
+	<p>	
+	The heat change (absorbed or evolved) associated with a chemical reaction is known as enthalpy of reaction (when the heat change occurs at constant pressure it 	is equal to enthalpy change). Calorimetry is the science of measuring the heat changes associated with a chemical or physical process. A Calorimeter is a 		container with good insulated walls to prevent heat loss. It is fitted with a thermometer and a stirrer through a cork top. In order to measure heats of 		reactions, we carry out the reaction in the calorimeter, and measure the difference in temperature before and after the reaction. The enthalpy exchanged during 	a reaction is allowed to change the temperature of a quantity of water or the temperature of the mixture itself is followed. 
+	<br><br>
+	Depending on the kind of the chemical reaction, various enthalpies of reactions such as ‘enthalpy of neutralization’ (for acid-base neutralization reaction), 		enthalpy of combustion, enthalpy of solution, etc., are determined. In a neutralization reaction, an acid and a base react to produce a salt and water and some 	heat. The neutralization reaction is an exothermic process.
+	<br><br>
+	The heat of neutralization is the heat change that occurs when one gram equivalent of an acid is completely neutralized by a base or vice versa in dilute 		solution. The neutralization reactions involve the combination of H<sup>+</sup> ions of an acid and OH<sup>-</sup> ions of a base to form water molecules. The 		heat of neutralization of a strong acid (e.g., HCl) or a strong base (e.g. NaOH) is equal to -57 kJ (negative sign implies heat evolved). It is less than this 		value for a weak acid or a weak base and also different for different weak acids or bases. For example the heat of neutralization for acetic acid is -54.9 kJ. 		As weak acids (or weak bases) are not completely ionized in solutions, a small quantity of heat is spent to dissociate the weak acid (or the weak base). Hence 		the smaller heat of neutralization for acetic acid (CH<sub>3</sub>COOH).
+
+	</p>
+	</strong>
+
+
+	
+
+	<div id="qtview" ><div class="qtcontent" id="MASKED-clicktoplay">
+	</div>
+	</div>
+</div>
+</section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<strong>
+	<p>To measure the heat of neutralisation.</p>
+	 <br><br>
+	<img  src="images/heat_neutral.jpg" width="500" height="240" />
+	</strong>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<div id="lab-article-section-3-content" class="content">
+	<strong>
+	<p>The enthalpy exchanged during a reaction is allowed to increase the temperature of a quantity of water or the temperature of the mixture itself is followed. 	The temperature change is related to energy units as
+		<br>
+		<div align="center">energy change(kJ)=specific heat capacity(J kg<sup>-1</sup> K<sup>-1</sup>) &#215; mass heated(kg) &#215; change in temperature(K)	
+
+		<br><br clear="all">E = c m &Delta;T
+		
+	</p>
+	</div>
+	<p>
+		<br>The energy change is always presented as kJ mol<sup>-1</sup> of the substance or reaction being studied.
+		<br><br>Enthalpy of Neutralisation - this is the heat released when 1 mole of water is formed during the neutralisation of strong acid by an alkali, e.g.
+	<br><br>
+	<img src="images/calorimeter.JPG" alt="" width="800" height="550">
+	</p>
+	</strong>
+</div>
+</section>
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+<p>
+<strong>
+	1. Run the experiment and note down the temperatures of hot and cold water every 5 minutes (note at least 4 data points) <br/>
+	2. Hit the mix button. <br/>
+	3. Note the temperature of the mixture. <br/>
+	4. Calculate water equivalent of the calorimeter and go to next stage. <br/>
+	5. Now repeat the above procedure for given acid-base pair instead of hot and cold water. <br/>
+	6. Using the water equivalent calculate the heat of neutralisation of the reaction. 
+	<br/><br/>
+	<a onclick="window.open('media/calorimeter.swf', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				    href="media/calorimeter.swf">		   
+	<img src="images/demo.JPG" alt="" width="400" height="150"></a>
+	</strong>
+	<br></p>
+	</div><!-- /Manual -->
+
+	
+	
+			
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-5-content" class="content">
+<a onclick="window.open('media/ve_calorimeter.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;" 
+				class="qtlink" href="media/ve_calorimeter.html">
+				<p>	<strong>Virtual Lab</strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60"></p>
+				</a>
+
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+<p><strong>
+	<!-- <br/><br/> -->
+	1. The reaction for the hydrogenation of acetylene, C<sub>2</sub>H<sub>2</sub> (g) proceeds according to:
+		<br><br>C<sub>2</sub>H<sub>2</sub> (g) + 2 H<sub>2</sub> (g) &#8594 C<sub>2</sub>H<sub>6</sub> (g)
+		<br>Calculate &#916 H<sub>o</sub> for this reaction by combining the equations (and &#916 H<sub>o</sub> s) for the following reactions.
+		<br>i) 2 C<sub>2</sub>H<sub>2</sub> (g) + 5 O<sub>2</sub> (g) &#8594 4 CO<sub>2</sub> (g) + 2 H<sub>2</sub>O (l) &#916 H<sub>o</sub> = - 2599 kJ
+		<br>ii) 2 C<sub>2</sub>H<sub>6</sub> (g) + 7 O<sub>2</sub> (g) &#8594 4 CO<sub>2</sub> (g) + 6 H<sub>2</sub>O (l) &#916 H<sub>o</sub> = - 3119 kJ
+		<br>iii) 2 H<sub>2 </sub>(g) + O<sub>2</sub> (g) &#8594 2 H<sub>2</sub>O (l) &#916 H<sub>o</sub> = - 572 kJ 
+		
+		<br><br>2. Give an example of a physical change that is endothermic. 
+		<br><br>3. For a reaction occurring at constant pressure, why is it much more convenient to measure the enthalpy change instead of the energy change?
+	
+	</strong>
+</p>
+
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<p>
+	1. &nbsp;&nbsp;<a target="_blank" href="http://www.geocities.com/capecanaveral/launchpad/5226/thermo.html" target="_blank">http://www.geocities.com/	capecanaveral/launchpad/5226/thermo.html</a><br/>
+	2. &nbsp;&nbsp;<a target="_blank" href="http://en.wikipedia.org/wiki/Thermochemistry" target="_blank">http://en.wikipedia.org/wiki/Thermochemistry  </a>
+	
+	
+
+	<br/><br/><br/>
+	</p>
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

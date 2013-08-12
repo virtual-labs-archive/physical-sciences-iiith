@@ -1,0 +1,378 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Geiger Counter.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+	<p align="justify">
+	<br>	
+	<p>
+	<strong>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What do you know about  how the doctor gets this picture for diagnosis?  Have you ever asked how the sun produces light and heat? What science enbled man to explode the atomic bomb about which you so often hear?  How do they diagnose ailments due to malfunctioning of thyroid glands using radioactive tracers? How is power generated in Kalpakkam nuclear plant? The underlying science presupposes knowledge of Radioactivity. This section presents just one aspect of this science known as Nuclear Science that has an impact on our lives since Becquerel discovered radioactivity, viz., how do we detect and measure radioactivity.<br><br><br>
+	<img align=center src="images/geiger.jpeg" height="150" width="200"></img>
+	<br><br><br><br>
+Monitoring and measuring radioactivity became imperative even during the early development of nuclear physics and radiochemistry to characterize the vast number of radioactive newly discovered isotopes with respect to the nature of radiations emitted, their energies, and half-lives. Rutherford and his coworkers succeeded in developing counters exploiting the ionizing nature of the principal radiations α,β,γ and x-rays. These counters are used even today without many modifications. 	
+	</strong>
+	</p>	
+	</div>
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<strong><br>
+	<ol>
+	<li>The students should become familiar with radioactive counting techniques using gas filled counters.</li>
+	<li>They should be able to measure the plateau of a Geiger counter and fix the optimum voltage for measuring radioactive counts per unit time.</li> 
+   	<li>They should be able to apply the statistical methods for reporting errors while quoting errors in count rates.</li>
+   	</ol>
+	
+	</strong>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-3-content" class="content">
+<strong>
+<p>The common radiation detectors make use of the electric conductivity of a gas resulting from the ionization produced in it. The gas counter consists of a suitable chamber containing usually an inert gas such as argon at atmospheric pressure, a central electrode in the form of a wire and   a thin end-window. The central electrode is kept at a positive potential (anode) and the chamber at negative potential (cathode). When a potential is applied between the electrodes the gas is ionized. The positively charged heavy ions move towards the walls of the container. The electrons move towards the anode. The ionization current can be measured by a suitable electronic circuit or can be be digitalized and measured as counts per minute. As we increase the applied voltage across the electrodes initially there will be no current till the threshold voltage for ionization is reached.  There on the   current starts increasing slowly at the early stage as the ions have a tendency to recombine till a sufficiently high potential is applied. The negatively charged electrons move swiftly towards the central anode and the heavy positive ions move relatively at a slower speed to the cathode. This does not seriously impair measurements as the applied potential relatively low. Further increase in the potential shows a plateau over a region of about 100 volts. In this region the output current remains steady as all atoms interacting with radioactive emissions get ionized. This region is known as the “saturation current region”. The current produced is a direct measure of the rate of production of charged ions. Among the three radiations α, β, and γ, the alpha particle has a short range as it has large mass and charge. Consequently this region is most sensitive to α particles and other radiations contribute very little. As the applied potential is quite low the current produced is small and requires good amplification. To eliminate any absorption of radiation by air and window material the radioactive source is kept inside the chamber itself.
+<br/></p>
+</strong>
+
+<strong>
+	
+<br/>
+	
+<p>After a certain increase in the applied voltage the output signal rises almost linearly and shows resolution in the output depending on the energies of the incoming radiations. The higher energy emissions lead to signals with higher pulse heights due to the larger ionization caused by them and also higher amplification as well. This can be observed nicely by observing the output in an oscilloscope. In case we are interested in getting the energy spectrum we use a discriminator or single channel analyzer to provide a window which will allow emissions of only certain pulse heights and the rest can be filtered off. A plot between pulse height and count rate gives the pulse height spectrum and the radiation of interest can be selected by fixing the window from the pulse height spectrum.  The output however requires amplification to register the signal as counts per minute. This region where the signal output shows proportionality to energy with gradual increase in slope can extend up to 100volts and is referred to as the proportional region. The counters operated in this region are called proportional counters. Unlike in the case of the ionization chamber the radioactive source can be conveniently mounted outside the counter and allowed to enter through a thin end window made of low atomic mass elements such as Be, Al, boron nitride (BN) or mica.  Proportional counters are less efficient for α particle and most efficient for β, low energy x-rays and gamma rays	</p>
+	<br/><br/>
+	</strong>
+</div>
+</section>
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+<p>
+<strong>
+	<ol>
+
+<li>Click on <b>Start</b>. Begin the experiment.</li>
+<li>Change the volatage with slider and note the counts per minute.</li>
+<li>Take 10 readings and plot counts per minute vs voltage graph to find the Geiger-Muller plataeu.</li>
+</ol>
+<br><br>
+
+<!--<a onclick="window.open('cITe/media/ccnsb/photoelectric.swf', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				    href="cITe/media/ccnsb/photoelectric.swf">-->		   
+	<img src="images/demo.JPG" alt="" width="400" height="150"></a>
+	</p>
+</strong>
+	
+	<div class="column quicktime showcase" id ="manual_more1" style="display:none"> <!-- Manual -->
+	<div id="qtview" ><div class="qtcontent" id="MASKED-clicktoplay">
+	
+	</div>
+		
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-5-content" class="content">
+<a onclick="window.open('media/ve_geigermuller.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				   class="qtlink" href="media/ve_geigermuller.html">
+					<strong>Virtual Lab</strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60">
+				</a>
+
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+<strong>	
+	
+	</strong>
+
+
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<strong>
+	
+<p><ol>
+		<li>Modern Nuclear Chemistry, Walter Loveland, David Morrissey, Glenn T.Seaborg, John Wiley & Sons, N.Y., 2006.  Published online 10 Nov 2005 Online ISBN : 9780471768623</li> 
+		<li>Nuclear and Radiochemistry, G. Friedlander, A.W. Kennedy and E.S.Macias, 1981, John Wiley & Sons, New York</li>
+    </ol>
+	</p> 
+	<br/><br/><br/>
+	</strong>	
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

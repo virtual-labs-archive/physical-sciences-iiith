@@ -1,0 +1,584 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>COLLOID AND SURFACE CHEMISTRY VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="index.html">COLLOID AND SURFACE CHEMISTRY VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Colloid and Surface Chemistry Virtual Lab
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+	<p>
+	This lab is about colloidal systems. Knowledge of colloids and interface chemistry is not only important in everyday life, but also in biology, medicine, agriculture, and in a variety of food and other industrial applications. Milk, butter, ice-cream, chocolate, body-spray, ink, shaving cream, glue, etc. are a few of numerous examples of colloids. We know that there are three fundamental states of matter: solids, liquids and gases. When matter in one of these states is dispersed in finely divided state in another, it is called a ‘colloidal system’. Importance of colloidal systems cannot be exaggerated. These colloidal systems have interesting properties that are often substantially different from their individual constituents. Colloidal systems find applications in day-to-day life to industry, agriculture, medicine, biological sciences and present-day nanotechnology. Though colloid science has been part of UG and PG curricula for decades,<i> resurgence of interest in it has occurred recently due to the intensive research activities in fields like “bottom-up” nanotechnology and in biological membrane interfaces, etc. </i>
+
+In a colloidal system, the dispersed phase is the one, which is present in finely divided state and the other continuous medium is known as the dispersion medium or dispersant. Colloidal particles are not visible under ordinary microscopes and pass through the pores of ordinary filter paper. Colloidal solutions are microscopically heterogeneous but macroscopically homogeneous. Colloidal solutions bridge the gap between true solutions (where ions and molecules are dispersed phase) and (coarse) suspensions (which often settle down under gravity). In a colloidal system, the dispersed phase may consist of particles of a single macromolecule (e.g. protein, starch) or an aggregate of many atoms, ions or molecules (e.g. silver colloid, micelle). Although the size of the dispersed phase particles in a colloid is larger than ordinary molecules, they are small enough to remain suspended. The size of dispersed phase particles ranges from one nanometer (10<sup>-9</sup> m) to one micrometer (10<sup>-6</sup> m) or so (Table 1). In certain circumstances, the particles in a colloidal dispersion may form loose aggregates, called flocs (via flocculation) or irreversible aggregates (via coagulation).</p>
+<p><b>Table 1.</b>Size range of dispersed particles in solutions, colloids and mixtures</p>
+	<p>
+	<TABLE WIDTH=2343 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=376>
+	<COL WIDTH=376>
+	<COL WIDTH=376>
+	<COL WIDTH=767>
+	<COL WIDTH=377>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif">MIXTURES</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">COLLOIDS</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm; margin-bottom: 0cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">SOLUTIONS</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Large particles</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Tiny particles</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Ions and molecules</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">> ~1 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"> 0.001 – ~1 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"> 0.001 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	</TABLE>
+	</p>
+	<p>
+Colloids are classified in many ways based on their nature, dispersion medium, etc. (Table 2). For example, there are various kinds of colloidal systems that include sols (solids dispersed in liquid), aerosol (liquid in gas), emulsions (liquid in liquid), gel (liquid in solid, association colloids or micelles (assembly of lyophobic-lyophilic molecules dispersed in liquid), etc. 
+</p>
+<p><b>Table 2.</b>Colloid types and examples</p>
+	<p>
+	<TABLE WIDTH=2343 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=376>
+	<COL WIDTH=376>
+	<COL WIDTH=376>
+	<COL WIDTH=767>
+	<COL WIDTH=377>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"></FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000"></FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm; margin-bottom: 0cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">TYPES OF COLLOIDS</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Large particles</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Tiny particles</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">Ions and molecules</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	<TR VALIGN=TOP>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT FACE="Times New Roman, serif"><FONT COLOR="#000000">> ~1 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"> 0.001 – ~1 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=376 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<FONT COLOR="#000000"><FONT FACE="Times New Roman, serif"> 0.001 µm</FONT></FONT></P>
+	</TD>
+	<TD WIDTH=0 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=767 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	<TD WIDTH=377 BGCOLOR="#ffffff" STYLE="border: none; padding: 0cm">
+	<P CLASS="western" ALIGN=CENTER STYLE="margin-left: -0.31cm; margin-right: 0.01cm">
+	<BR>
+	</P>
+	</TD>
+	</TR>
+	</TABLE>
+	</p>
+<p>
+The size and surface charge of colloidal particles are two important parameters, which determine the properties and stabilities of such systems. Colloidal systems have a high surface area to volume ratio. Because of the wide surface of contact between the two phases, often the colloids are studied with respect to their surface phenomena in the discipline of surface and colloid science or physical chemistry.
+</p>
+
+	</div>
+	
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/experiments.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Experiments
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	 <ol class="experiment-list">
+				<li class="experiment-thumb">
+					<a href="exp1/index.html">
+						<strong>Familiarization with the UV-Visible Absorption Spectroscopy:</strong>
+					</a>
+					<ul type="disc">
+					<strong>
+					<a href="exp1/media/Principle.html">
+						<li> Principles of UV-visible absorption spectroscopy: Electronic excitation/transition and light absorption </li>
+					</a>
+					<a href="exp1/media/instrument_animation.html">
+						<li> The working principles of a UV-visible spectrophotometer: Instrumentation </li>
+					</a>
+					<a href="exp1/media/1.html">
+						<li> Absorption (and transmittance) measurements of a colourless and a coloured light absorbing substance in a solution by using a spectrophotometer </li>
+					</a>
+					</ul>
+					</a>
+					</strong>
+				</li>
+				<li class="experiment-thumb">
+					<a href="exp2/index.html">
+						<strong>Solvent effects on absorption spectra</strong>
+					</a>
+					</strong>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp3">
+						<strong>Effects of sample path length</strong>
+					</a>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp4">
+						<strong>Effects of sample concentration</strong>
+					</a>
+				</li> 
+		
+				<li class="experiment-thumb">
+					<a href="exp5/index.html">
+						<strong>Determination of molar absorptivity</strong>
+					</a>
+				</li>
+				<li class="experiment-thumb">
+					<a href="exp6">
+						<strong>Verification of Beer-Lambert Law</strong>
+					</a>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp7">
+						<strong>Determination of unknown concentration of a light absorbing analyte</strong>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp8">
+						<strong>Simultaneous estimation method for multicomponent samples: Principle of additivity of absorbance</strong>
+					</a>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp9">
+						<strong>pH effects on absorption spectra: pKa determination by spectrophotometric method</strong>
+					</a>
+				</li> 
+				<li class="experiment-thumb">
+					<a href="exp10">
+						<strong>Study of kinetics of a reaction by using spectrophotometric method</strong>
+					</a>
+				</li> 
+				
+			</ol>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/target_audience.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Target Audience
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-3-content" class="content">
+	<ul>
+<li>UG</li>
+<ul>
+<li>-Engineering Chemistry 1st year B. Tech. in Chemical / Materials / IT / Civil / Mech. / Electrical / Textile / Agricultural Engg....</li>
+<li>-B. Pharm., Biotech., Biomed. Engg.</li>
+<li>-B. Sc. (Hons.) in Chemistry/Phys./Biol./Biophys.</li>
+</ul>
+
+<li>PG</li>
+<ul>
+<li>-Chemistry, Chemical/Materials/Biomedical Engg., Biotech & Pharm.</li>
+<li>-Ph. D. Beginners</li>
+</ul>
+</ul>
+	</div>
+	
+      </section>
+
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+	<p>
+This lab aims at demonstrating how to design absorption measurements in a spectrophotometer and how to use absorption spectroscopy as an analytical tool.
+</p>
+	</div>
+	
+      </section>
+	<section id="lab-article-section-5">
+        
+        <div id="lab-article-section-5-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/courses_aligned.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-5-heading" class="heading">
+	 Courses Aligned
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-5-content" class="content">
+	<p>
+ 		Physical and Analytical Chemistry of molecular absorption spectroscopy and their applications.
+
+	</p>
+	</div>
+	
+      </section>
+	<section id="lab-article-section-6">
+        
+        <div id="lab-article-section-6-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="images/acknowledgement.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-6-heading" class="heading">
+	 Acknowledgement
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-6-content" class="content">
+	<p>
+		<br>
+ 		We acknowledge the efforts of the members of the development team:
+		<b><ul>	
+		<li>Sourav Chatterjee</li>
+		<li>Rakesh Sengupta</li>
+		<li>Swarnabha Sen</li>
+		<li>S P Mohanty </li>
+		<li>Meet Shah</li>
+		<li>Harshit Daga</li>
+		<li>Shantanu Rai</li>
+		<li>Tushant Jha</li>
+		<li>Pallav Tinna</li>
+		</b>
+		</ul>
+		<br>
+		<p>Lab Developers: <b>Dr. Tapan Kumar Sau</b> 
+		<br>Click <a href="http://faculty.iiit.ac.in/~tapan.sau/">here</a> to visit the my webpage.</p>
+	</p>
+	</div>
+	
+      </section>
+
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb03"><img id="feedback" src="images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-2-content" class="content">
+      </div>
+
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

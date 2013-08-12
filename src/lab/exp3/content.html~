@@ -1,0 +1,428 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Photoelectric Effect.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+<p align="justify">
+<br>	
+	<strong>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Background:</b>  Albert Einstein was awarded the Nobel Prize in 1921 "for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect". Historically, photoelectric effect served as one of the foundational experiments in quantum mechanics in understanding the quantum nature of light and electrons.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; When electromagnetic radiation (light) falls on a metal surface, electrons from the metal are ejected out. This observation is the basis of Photoelectric effect and has several practical applications:<br/><br/>
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> <p><ol>
+<li> Night Vision Technology<!-- <a href="javascript:void(0);"
+onclick="ShowHide('divDetails1');UpdateText(this);">
+Show Details
+</a>
+<div id="divDetails1" style="display:none;">
+ Even faintest amount of light can knock of electrons from the specially designed metal surface in night vision goggles. Typically these free electrons then start a cascade at the end of which large number of free electrons result and can be detected easily, forming the viewed image.
+</div></li> -->
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --> <li>Solar Energy Cells <!-- <a href="javascript:void(0);"
+onclick="ShowHide('divDetails2');UpdateText(this);"> 
+Show Details
+</a>
+<div id="divDetails2" style="display:none;">These cells convert the solar energy available in form of light into electrical energy. Unlike the photoelectric effect, where the electrons are completely knocked off the metal and become free, the electrons in the solar cell surface are only loosened and not completely knocked off. These loosened electrons result in electricity flowing through the solar cell and can be stored in batteries. Photodiodes are very similar to solar cells, except for the storage of generated electricity.</div></li>
+ --><!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  --><li>Photoelectron Spectroscopy<!-- :</b> <a href="javascript:void(0);"
+onclick="ShowHide('divDetails3');UpdateText(this);">
+Show Details
+</a>
+<div id="divDetails3" style="display:none;">
+Since the energy required to knock electron free from any molecule or metal is strongly dependent on the atomic and molecular constitution, the photoelectric effect can be used to detect the composition of a given sample. This is called Photoelectron Spectroscopy.
+</div> --></li>
+</ol>
+
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Brief Description of the Experiment:</b> The experiment is mainly conducted in an evacuated tube connected to a variable voltage source. The anode and cathode  of the vacuum tube are made of the metal used to investigate the photoelectric effect. When monochromatic light shines on the cathode electrons are liberated and they reach the anode resulting in the current flowing through the external circuit. The current can be measured by the galvanometer. The flow of electrons inside the vacuum tube can be hindered by varying the external voltage. The electron flow stops entirely when the external voltage exceeds the stopping potential Us. <br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<img src="images/photoelectric.jpg"> -->
+	</p></blockquote>
+ <!-- <br/> -->
+	</div>
+	
+	</strong>
+		
+	
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<strong><br>
+	<p>To calculate the work function of metals through <font color="blue"> photoelectric effect </font>.</p>
+	<br><br>
+	<img src="images/photoelectric.JPG" alt="" width="900" height="650">
+	</strong>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-3-content" class="content">
+<strong>
+	<table>
+	<tr>
+	<p>
+	Light is made up of photons. The energy of each photon is given by<br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/pe4.jpg"><br/><br><br>
+	where <i>h</i> is the Plank's constant and <i>f</i> is the frequency of photon.<br/><br/>
+	When a photon strikes a metal surface, some of its energy is transferred to the electron of the metal atom. It is called a photoelctron. Some of this energy is used by the photoelectron to break away from the metal surface and the rest is converted to its kinetic energy.<br/><br/>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/pe1.jpg"><br/><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/pe2.jpg"><br/><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/pe3.jpg"><br/><br><br>
+	where &phi; is the work function characteristic to the metal and <i>f<sub>0</sub></i> is the threshold frequency necessary for photocurrent.<br/>
+	
+	</p></tr>
+	<br><br><br><br>
+	</table>
+	</strong>
+	</div>
+</section>
+
+
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+	<p>
+	<strong>
+	<ol>
+
+	<li>Select a metal from the drop-down menu.</li>
+
+	<li> Set the intensity and the wavelength of the monochromatic light source. </li>
+
+	<li>By varying the driving potential in the external circuit, find the stopping potential at which
+	the current flow stops.</li>
+	<li>Repeat step 3 by varying the intensity and wavelength.</li>
+	<li>Calculate the work function of the selected metal from the value of stopping potential.</li>
+	<li>Select the metal and go through steps 3-5.</li>
+	</ol>
+	<br><br>
+
+	<a onclick="window.open('media/photoelectric.swf', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				    href="media/photoelectric.swf">		   
+	<img src="images/demo.JPG" alt="" width="400" height="150"></a>
+	</p>
+	</strong>
+	</div>
+
+	
+	<div class="column quicktime showcase" id ="manual_more1" style="display:none"> <!-- Manual -->
+	<div id="qtview" ><div class="qtcontent" id="MASKED-clicktoplay">
+	</div>
+			
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <p><div id="lab-article-section-5-content" class="content">
+				<a onclick="window.open('media/ve_photoelectric.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;" 
+				class="qtlink" href="media/ve_photoelectric.html">		
+				<!--<p><a onclick="window.open('media/ve_photoelectric.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				   class="qtlink" href="media/ve_photoelectric.html">-->
+					<strong><p>Virtual Lab</p></strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60">
+				</a>
+</p>
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+	<strong>
+	<p>
+	<ol>
+		<li>Does the stopping potential depend on a) wavelength, b) intensity of the
+		monochromatic light source?</li> 
+		<li>Why is the monochromatic light source required?</li> 
+		<li>What happens to the electron's kinetic energy when the stopping potential
+		is applied?</li> 
+    </ol>
+	</p>
+	</strong>
+	</strong>
+
+
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<strong>
+	
+<p><ol>
+		<li> <a target="_blank"  href="http://videos.howstuffworks.com/hsw/20944-physics-the-photoelectric-effect-video.htm">http://videos.howstuffworks.com/hsw/20944-physics-the-photoelectric-effect-video.htm</a></li> 
+		<li><a target="_blank" href="http://hyperphysics.phy-astr.gsu.edu/hbase/mod1.html">http://hyperphysics.phy-astr.gsu.edu/hbase/mod1.html</a></li> 
+		<li><a target="_blank" href="http://en.wikipedia.org/wiki/Photoelectric_effect">http://en.wikipedia.org/wiki/Photoelectric_effect</a></li>
+    </ol>
+	</p> 
+	<br/><br/><br/>
+	</strong>
+
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>

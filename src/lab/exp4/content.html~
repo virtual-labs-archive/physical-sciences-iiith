@@ -1,0 +1,438 @@
+<!-- This file needs to be edited by the lab developer to suit
+their lab rquirements. -->
+
+<!-- Add class="default" to include any element as it is
+specified in default.html. 
+Do not include class="default" to the elements that you want to
+edit -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>PHYSICAL SCIENCES VIRTUAL LAB</title>
+</head>
+
+<body>
+
+<div id="lab"> <!-- The Lab Document Container-->
+  
+  <!-- The lab Header contains the logo and the name of the lab, 
+  usually displayed on the top of the page-->
+
+  <header id="lab-header">
+    
+    <div id="experiment-header-logo" class="logo">
+	<!-- Enclose the logo image of your lab or write it in 
+	text-->
+
+		<a href="http://virtual-labs.ac.in/"><div class="imagemap">
+			<img src="http://virtual-labs.ac.in/images/virtualLabsLogo.jpg" alt="" usemap="#logos" />
+
+	
+			<map name="logos">
+			
+				<area shape="rect" coords="0,0,505,98" href="http://www.vlab.co.in/" title="Vlab" alt="Vlab" />
+				<area shape="rect" coords="734,0,1022,97" href="http://www.iiit.ac.in/" title="IIIT" alt="IIIT" />
+			
+				<area shape="default" nohref="nohref" title="Default" alt="Default"/>
+			</map>
+
+			</div>
+	      
+	     </a>
+	</div>
+
+    <div id="lab-header-heading" class="heading">
+    <!-- Write the name of your lab and link it to the home page
+    of your lab. -->
+      <a href="../index.html">PHYSICAL SCIENCES VIRTUAL LAB</a>	
+    </div>
+
+    <!-- Add any additional element or link you want to add to 
+    the lab header, For example : Help (Enclosing them with 
+    suitable div is recommended)-->
+  
+  </header>
+
+
+  <!-- The lab article is the main content area where all the 
+  experiment content sits-->
+  <article id="lab-article">
+
+
+    <!-- The lab article has an header, optional navigational 
+    menu, number of sections, an optional sidebar and a closing 
+    footer-->
+    <header id="lab-article-header">
+      
+      <!-- You can add a welcome message or title of the 
+      experiment enclosed in h1 tag here -->
+      <div id="lab-article-heading" class="heading">
+        Familiarization with Kinetics of Cane Sugar Inversion.
+      </div>
+
+      <!-- Add any additional element if required with proper 
+      enclosing-->
+    </header>
+
+
+    <!-- Navigation menu is useful to organize the view of 
+    multiple sections inside the article-->
+    <nav id="lab-article-navigation">
+    <ul id="lab-article-navigation-menu">
+      <!-- The menu will be dynamically generated to contain the 
+      headings of your sections or instead write the menu items 
+      of your choice individually enclosed in <li> tag as shown 
+      below-->
+    </ul>
+    </nav>
+
+    
+    <!-- All the sections of your lab or experiment can be 
+    enclosed together with a div element as shown below-->
+    <div id="lab-article-sections">
+			
+      <!-- First section of the article-->
+      <section id="lab-article-section-1">
+        <div id="lab-article-section-1-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/introduction.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag. -->
+	<div id="lab-article-section-1-heading" class="heading">
+	Introduction
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+	<div id="lab-article-section-1-content" class="content">
+<p align="justify">
+<br>	
+	<p>
+	<strong>
+	When a chemical reaction occurs, its speed depends on the amounts of reactants present in a certain manner called a rate law. How do we know what is the rate law for a particular reaction? How do we measure speeds? One can monitor distinguishable properties of the reactants to follow a reaction over time. Optical activity is one such remarkable property that can be used if the molecular structure of a reactant is asymmetric. Cane sugar is such a molecule.
+	
+	
+	</tr>
+	
+
+	
+	<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" width="620" height="200">
+		<param name="movie" value="media/mediaplayer/player-viral.swf" />
+		<param name="allowfullscreen" value="true" />
+		<param name="allowscriptaccess" value="always" />
+                <param name='loop' value='true'/>
+		<param name="flashvars" value="file=chem.flv&image=media/mediaplayer/preview.png" />
+		<embed
+			type="application/x-shockwave-flash"
+			id="player2"
+			name="player2"
+			src="media/mediaplayer/player-viral.swf" 
+			width="550" 
+			height="386"
+			allowscriptaccess="always" 
+			allowfullscreen="true"
+			flashvars="file=chem.flv&image=media/mediaplayer/preview.png" />
+
+	</object>
+        
+	
+	</strong>	
+	
+
+	
+
+	<div id="qtview" ><div class="qtcontent" id="MASKED-clicktoplay"><p>
+	</div></div>	
+	<strong>
+	<p>
+	In presence of acid it hydrolyzes to glucose and fructose:<br><br>
+
+	C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> + H<sub>2</sub>O = C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> (glucose) + C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> 		(fructose)<br><br>
+
+	and we can follow the reaction by measuring how a plane of polarization of light passing through the solution undergoes rotation.
+
+	This experiment has great historical significance. In 1850, Wilhelmy carried out this experiment to study the kinetics of hydrolysis (inversion) of cane sugar 		catalyzed by acids. It is an early example of studies of reaction rates in homogeneous systems and the concept of the velocity of reaction was developed during 	these studies. This work was the precursor of later studies of the temperature effect on reaction velocity by van’t Hoff, Arrhenius, and Ostwald. </p>
+	<img align=center src="images/glucose_a.jpeg" height="200" width="500"></img>
+
+	
+	<br/><br/><br/>
+	</strong>
+	
+	</div>
+      </section>
+		
+
+      <!-- Second section of the article-->
+      <section id="lab-article-section-2">
+        
+        <div id="lab-article-section-2-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/objective.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-2-heading" class="heading">
+	  Objective
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-2-content" class="content">
+	<p><strong>
+	To study inversion of cane-sugar in the presence of hydrochloric acid (HCl)
+	 <br><br>
+	<img  src="images/polarimeterlab.JPG" width="900" height="650" />
+	</strong>
+	</p>
+	</div>
+	
+      </section>
+
+
+	 <!-- Second section of the article-->
+      <section id="lab-article-section-3">
+        
+        <div id="lab-article-section-3-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/theory.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-3-heading" class="heading">
+	 Theory
+	</div>
+				
+	<div id="lab-article-section-3-content" class="content">
+<strong>
+	<div align="justify">
+	<p>A standard measure of the degree to which a compound is dextrorotary or levorotary is the quantity called the specific rotation [&alpha;]. Dextrorotary 		compounds have a positive specific rotation, while levorotary compounds have negative. Two enantiomers have equal and opposite specific rotations. 
+
+	</p>
+	<p>The formula for specific rotation is:
+
+	</p>
+	<div align="center"><img src="images/formula.jpeg" width="100" height="50"></img></div><br><br>
+	<p>where: [&alpha;] = specific rotation; &alpha; = observed rotation; c = concentration of the solution of an enantiomer; l = length of the tube (Polarimeter 		tube) 
+
+	</p>
+
+	<p>For a pure substance in solution, if the color and path length are fixed and the specific rotation is known, the degree of rotation can be used to determine 	the concentration.
+	In case of inversion of cane sugar the rate of reaction depends on the concentrations of sucrose, water and of hydrogen ion acts as a catalyst. The 			concentration of water may be regarded as constant when a large excess is used and H<sup>+</sup> ion remains constant during the reaction. Under these 		conditions the 	reaction is first order in sucrose. 
+
+	</p>
+	<p>If A<sub>0</sub>  = the initial angular rotation, A<sub>t</sub> = the value at time t, and the final value is A<sub>∞</sub> then (A<sub>0</sub>-A<sub>∞</sub>) 	is proportional to the original concentration of sucrose and (A<sub>t</sub>-A<sub>∞</sub>) is proportional to concentration of sucrose at time t.
+Substituting these values in the standard equation for a first order reaction we have, 
+
+	</p>
+	<p><div align="center"><img src="images/formula2.jpeg" width="150" height="50"></img><br></div></p>
+     	</p>
+  	</div>
+
+	</strong>
+	</section>
+
+	<section id="lab-article-section-4">
+        
+        <div id="lab-article-section-4-icon" class="icon">
+          <!-- Enclose the icon image for the section. -->
+	  <img src="../images/procedure.jpg" />
+	</div>
+
+
+        <!-- The heading for the section can be enclosed in a 
+        div tag and shown with a <h2> tag -->
+	<div id="lab-article-section-4-heading" class="heading">
+	 Procedure
+	</div>
+				
+	<!-- Write the section content inside a paragraph 
+        element, You can also include images with <img> tag -->
+        <div id="lab-article-section-4-content" class="content">
+	<p>
+	<strong>
+	<ol>
+		
+	<li>Click the <b>"Start Timer"</b> to start the experiment</li>
+	<li>Whenever you want to take the reading of the Polarimeter adjust the navigator below the pictorial presentation of polarimeter eye-piece</li>
+	<li>A plot of rotation vs time will be generated</li>
+	<li>Now calculate the value of <b>rate constant</b> k</li>
+	</ol>
+
+	<a onclick="window.open('media/polarimeter.swf', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
+				    href="media/polarimeter.swf">		   
+	<img src="images/demo.JPG" alt="" width="500" height="250"></a>
+	</p>
+	</strong>	
+	</div>
+			
+      </section>
+      
+ <section id="lab-article-section-5">
+
+      <div id="lab-article-section-5-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/experiment.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-5-heading" class="heading">
+      Simulator
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-5-content" class="content">
+	<a onclick="window.open('media/ve_opticalrotation.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;" 
+						class="qtlink" href="media/ve_opticalrotation.html">
+					<strong><p>Virtual Lab</p></strong>
+					<img src="images/vlab.jpg" alt="" width="90" height="60">
+				</a>
+
+      </div>
+
+      </section>
+
+ <section id="lab-article-section-6">
+
+      <div id="lab-article-section-6-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+	  <img src="../images/quiz.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-6-heading" class="heading">
+      Quiz
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-6-content" class="content">
+
+	
+	
+	<div align="justify">
+<p>
+Try to find the answer of the following questions by yourself
+<br>
+<ol>
+	<li>Why is the hydrolysis of cane sugar considered a first order reaction?</li>
+	<li>What is the difference between order and molecularity of a reaction?</li>
+	
+	<li>What is <b>optical rotation</b>?</li>
+		<li>What is <b>chirality</b>?</li>
+		<li>Do you expect any trouble if the optically active reactant is dissolved in an optically active solvent?</li>
+		<li>How does the concentration of H+ ion affect the reaction rate?</li>
+		</ol></div>
+	
+
+</p>
+      </div>
+
+      </section>
+<section id="lab-article-section-7">
+
+      <div id="lab-article-section-7-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+<img id="feedback" src="../images/references.jpg" />
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-7-heading" class="heading">
+      References
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-7-content" class="content">
+<div align="justify">
+	<ol>
+	<li><a class="more" target="_blank" href="http://en.wikipedia.org/wiki/Levorotation_and_dextrorotation ">http://en.wikipedia.org/wiki/Levorotation_and_dextrorotation</a></li>
+	<li><a class="more" target="_blank" href="http://sandwalk.blogspot.com/2007/10/inversion-of-cane-sugar.html ">http://sandwalk.blogspot.com/2007/10/inversion-of-cane-sugar.html </a></li>
+	</ol></div>
+	<br/><br/><br/>
+	
+      </div>
+
+      </section>
+      
+      <section id="lab-article-section-99">
+
+      <div id="lab-article-section-99-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="../?q=experiments"><img src="../images/experiments.jpg" /><p></p>Experiments</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-99-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-99-content" class="content">
+      </div>
+      </section>
+      
+      <section id="lab-article-section-100">
+
+      <div id="lab-article-section-100-icon" class="icon">
+      <!-- Enclose the icon image for the section. -->
+     <a href="http://virtual-labs.ac.in/feedback/?lab=ccnsb02"><img id="feedback" src="../images/feedback.jpg" /><p></p>Feedback</a>
+      </div>
+
+
+      <!-- The heading for the section can be enclosed in a 
+      div tag and shown with a <h2> tag -->
+      <div id="lab-article-section-100-heading" class="heading">
+      </div>
+
+      <!-- Write the section content inside a paragraph 
+      element, You can also include images with <img> tag -->
+      <div id="lab-article-section-100-content" class="content">
+      </div>
+      </section>
+
+
+      </div>	
+
+      <!-- An article can have a sidebar that contain related 
+      links and additional material (it is optional at this 
+      moment)-->
+      <aside id="lab-article-sidebar" class="default">
+	<!-- put the content that you want to appear in the 
+        sidebar-->	
+      </aside>
+		
+      <!-- Article footer can display related content and 
+      additional links -->						
+      <footer id="lab-article-footer" class="default">
+	<!-- Put the content that you want to appear here-->
+      </footer>
+
+    </article>
+	
+  <!-- Links to other labs, about us page can be kept the lab 
+  footer-->
+  <footer id="lab-footer" class="default">
+    <!-- Put the content here-->
+  </footer>
+
+</div>
+</body>
+</html>
