@@ -281,15 +281,9 @@ Since the energy required to knock electron free from any molecule or metal is s
 
       <!-- Write the section content inside a paragraph 
       element, You can also include images with <img> tag -->
-      <p><div id="lab-article-section-5-content" class="content">
-				<a onclick="window.open('media/ve_photoelectric.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;" 
-				class="qtlink" href="media/ve_photoelectric.html">		
-				<!--<p><a onclick="window.open('media/ve_photoelectric.html', null,'scrollbars=yes, width=' + (screen.availWidth) +',height=' + (screen.availHeight)); return false;"
-				   class="qtlink" href="media/ve_photoelectric.html">-->
-					<strong><p>Virtual Lab</p></strong>
-					<img src="images/vlab.jpg" alt="" width="90" height="60">
-				</a>
-</p>
+     <p>
+	<a href="./media/ve_photoelectric.html" target="_blank">Click here to go to lab</a>
+	</p>
       </div>
 
       </section>
